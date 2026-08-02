@@ -71,7 +71,7 @@ Powered by **@frozentools** ❄️
 A powerful, updated, and fast String Session Generator for Telegram.
 
 • **Channel**: [@frozentools](https://t.me/frozentools)
-• **Support**: [@frozentools](https://t.me/frozentools)
+• **Support**: [@frozentools](https://t.me/tmm_support_chat)
 • **Source Code**: [Click Here](https://github.com/alonepro098/tmm-string)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 """
