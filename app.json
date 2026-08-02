@@ -1,0 +1,52 @@
+{
+  "name": "FrozenTools String Session Generator",
+  "description": "Powerful & Fast Pyrogram v2 & Telethon String Session Generator Bot",
+  "logo": "https://graph.org/file/443076090048170968b90.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram",
+    "telethon",
+    "frozentools"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "repository": "https://github.com/alonepro098/tmm-string",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "MUST_JOIN": {
+      "description": "Add username/id of channel or group for force subscription",
+      "required": false,
+      "value": "frozentools"
+    },
+    "DATABASE_URL": {
+      "description": "PostgreSQL Database URL (Optional)",
+      "required": false,
+      "value": ""
+    }
+  }
+}
